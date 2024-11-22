@@ -90,7 +90,7 @@ main() {
   readonly show_directory="#[fg=$thm_pink,bg=$thm_bg,nobold,nounderscore,noitalics]$right_separator#[fg=$thm_bg,bg=$thm_pink,nobold,nounderscore,noitalics]  #[fg=$thm_fg,bg=$thm_black4] #{b:pane_current_path} #{?client_prefix,#[fg=$thm_red]"
 
   local show_window
-  readonly show_window="#[fg=$thm_pink,bg=$thm_bg,nobold,nounderscore,noitalics]$right_separator#[fg=$thm_bg,bg=$thm_red,nobold,nounderscore,noitalics] #[fg=$thm_fg,bg=$thm_black4] #W #{?client_prefix,#[fg=$thm_red]"
+  readonly show_window="#[fg=$thm_red,bg=$thm_bg,nobold,nounderscore,noitalics]$right_separator#[fg=$thm_bg,bg=$thm_red,nobold,nounderscore,noitalics] #[fg=$thm_fg,bg=$thm_black4] #W #{?client_prefix,#[fg=$thm_red]"
 
   local show_session
   readonly show_session="#[fg=$thm_green]}#[bg=$thm_gray]$right_separator#{?client_prefix,#[bg=$thm_red],#[bg=$thm_green]}#[fg=$thm_bg] #[fg=$thm_fg,bg=$thm_black4] #S "
